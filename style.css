@@ -1,0 +1,45 @@
+body {
+  background: black;
+  color: red;
+  font-family: monospace;
+  font-size: 14px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center; /* Centraliza o texto */
+  width: 80%;
+}
+
+.left {
+  white-space: pre;
+  width: 100%; /* Ocupa toda a largura disponível */
+  padding: 20px;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px; /* Adiciona um espaço entre o texto e a imagem */
+}
+
+.right img {
+  max-width: 90%;
+  height: auto;
+  border: 2px solid red;
+}
+
+.green { color: #00FF00; }
+.purple { color: #AA00FF; }
+.bold { font-weight: bold; }
+a { color: #00FFFF; text-decoration: none; }
